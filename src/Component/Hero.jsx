@@ -6,6 +6,8 @@ import pink from "../images/pink.jpg";
 import pastel from "../images/pastel.jpg";
 import lashB from "../images/lashb.jpg";
 import { Link } from "react-router-dom";
+import MovingText from "./MovingText";
+
 const Hero = () => {
   const divStyle = {
     backgroundImage: `url(${pink})`,
@@ -17,7 +19,7 @@ const Hero = () => {
   return (
     <>
       <div
-        className=" m-0 pl-4 pr-4  h-screen pt-20   bg-cover bg-center justify-center text-center"
+        className=" m-0 pl-4 pr-4   pt-20   bg-cover bg-center justify-center text-center"
         style={bStyle}
       >
         <div className=" justify-center text-center  pt-20 pb-5 justify-end text-black">
@@ -51,6 +53,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <MovingText />
     </>
   );
 };
