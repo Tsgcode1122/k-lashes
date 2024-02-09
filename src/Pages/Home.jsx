@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Navbar from "../Component/Navbar";
 import Hero from "../Component/Hero";
 import AboutUs from "../Component/AboutUs";
@@ -16,6 +16,10 @@ import Book from "../Component/Book";
 import Footer from "../Component/Footer";
 
 const Home = () => {
+  useEffect(() => {
+    // Scroll to the top on component mount
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Navbar />

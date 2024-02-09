@@ -22,7 +22,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="  md:hidden fixed w-full bg-darkC p-2.5 flex justify-between z-50">
+      <div className="md:hidden fixed w-full bg-darkC p-2.5 flex justify-between z-50 border-b-2 border-lightC">
         <img className="max-w-full h-[50px] " src={logoimg} alt="Logo" />
 
         <label className="btn  bg-transparent btn-circle hover:bg-lightC swap swap-rotate">
@@ -70,13 +70,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="pb-2">
-              <Link
-                className="flex justify-between"
-                onClick={toggleAboutDropdown}
-              >
-                About <IoIosArrowDropdown onClick={toggleAboutDropdown} />
+              <Link to="/About" className="flex justify-between">
+                About <IoIosArrowDropright />
               </Link>
-              {isAboutOpen && (
+              {/* {isAboutOpen && (
                 <motion.div
                   className="pt-2  pl-4 pr-6 md:hidden w-full bg-darkC"
                   initial={{ opacity: 0, height: 0 }}
@@ -104,16 +101,13 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </motion.div>
-              )}
+              )} */}
             </li>
             <li className="pb-2">
-              <Link
-                className="flex justify-between"
-                onClick={toggleServiceDropdown}
-              >
-                Services <IoIosArrowDropdown onClick={toggleServiceDropdown} />
+              <Link to="/Services" className="flex justify-between">
+                Services <IoIosArrowDropright />
               </Link>
-              {isServiceOpen && (
+              {/* {isServiceOpen && (
                 <motion.div
                   className="pt-2  pl-4 pr-6 md:hidden w-full bg-darkC"
                   initial={{ opacity: 0, height: 0 }}
@@ -136,7 +130,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </motion.div>
-              )}
+              )} */}
             </li>
             <li className="pb-2">
               <Link to="/Contact" className="flex justify-between">

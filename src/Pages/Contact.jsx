@@ -1,11 +1,20 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Navbar from "../Component/Navbar";
+import ContactForm from "../Component/ContactForm";
+import Socials from "../Component/Socials";
 
 const Contact = () => {
+  useEffect(() => {
+    // Scroll to the top on component mount
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Navbar />
-      <div className=" pt-20"> COntact</div>;
+      <div className="pt-24 bg-darkC">
+        <ContactForm />
+        <Socials />
+      </div>
     </>
   );
 };

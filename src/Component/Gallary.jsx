@@ -5,7 +5,7 @@ import img3 from "../images/IMG_57.jpg";
 import img4 from "../images/IMG_56.jpg";
 import img5 from "../images/IMG_55.jpg";
 import img6 from "../images/IMG_54.jpg";
-import "../Gallary.css"; // Import your CSS file for styling
+import "../Gallary.css"; 
 
 const Gallary = () => {
   return (

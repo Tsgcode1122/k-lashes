@@ -7,6 +7,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Appointment from "./Pages/Appointment";
 import Services from "./Pages/Services";
+import Preloader from "./Component/Preloader";
 
 const router = createBrowserRouter([
   {
@@ -38,7 +39,12 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <Preloader />
+      <RouterProvider router={router} />;
+    </>
+  );
 };
 
 export default App;

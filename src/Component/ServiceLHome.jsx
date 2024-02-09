@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../images/la.png";
+import { Link } from "react-router-dom";
 const ServiceLHome = () => {
   return (
     <>
@@ -11,9 +12,6 @@ const ServiceLHome = () => {
         </article>
         <div className=" ">
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-1 rounded-2xl">
                 Classic & Volume Certification{" "}
@@ -26,9 +24,6 @@ const ServiceLHome = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Lash Removal
@@ -41,9 +36,6 @@ const ServiceLHome = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Refresher Course
@@ -57,9 +49,6 @@ const ServiceLHome = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Eyebrow Waxing
@@ -73,9 +62,6 @@ const ServiceLHome = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Hybrid Lash Full set
@@ -88,9 +74,6 @@ const ServiceLHome = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Volume Lash Full set
@@ -105,12 +88,12 @@ const ServiceLHome = () => {
           </div>
         </div>
         <div className=" justify-center flex gap-4">
-          <a>
+          <Link to="/Services">
             <button>More Services</button>
-          </a>
-          <a>
+          </Link>
+          <Link to="Appointment">
             <button>Book Now!!!</button>
-          </a>
+          </Link>
         </div>
       </div>
     </>
