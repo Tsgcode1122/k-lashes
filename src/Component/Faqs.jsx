@@ -7,12 +7,11 @@ const Faqs = () => {
         <div className="text-center ">
           <h3 className="font-bold text-xl">FAQs</h3>
           <p>
-            Certainly! Here's a short introduction for your FAQs section: ---
             Welcome to our FAQs section, where we address common queries about
             our lash services. Explore the following questions to find helpful
             information on lash extensions, aftercare, and more. If you have
             additional questions, feel free to reach out – we're here to enhance
-            your lash experience with clarity and confidence. ---
+            your lash experience with clarity and confidence.
           </p>
         </div>
         <div>

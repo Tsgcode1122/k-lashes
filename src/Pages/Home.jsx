@@ -11,6 +11,7 @@ import PFlyer from "../Component/PFlyer";
 import Reviews from "../Component/Reviews";
 import ContactForm from "../Component/ContactForm";
 import Faqs from "../Component/Faqs";
+import Socials from "../Component/Socials";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <Reviews />
       <Faqs />
       <ContactForm />
+      <Socials />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import yourVideo from "../images/video.mp4";
 const Reviews = () => {
   const reviewsData = [
     {
@@ -77,6 +77,20 @@ const Reviews = () => {
         <button onClick={nextReview} className="text-xl font-bold">
           &gt;
         </button>
+      </div>
+      <div>
+        <video
+          width="100%"
+          height="auto"
+          controls
+          autoPlay
+          muted
+          loop
+          className=" w-[104rem] h-[30rem]"
+        >
+          <source src={yourVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
