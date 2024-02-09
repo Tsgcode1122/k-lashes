@@ -11,9 +11,6 @@ const ServiceList = () => {
         </article>
         <div className=" ">
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-1 rounded-2xl">
                 Classic & Volume Certification{" "}
@@ -26,9 +23,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Lash Removal
@@ -41,9 +35,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Refresher Course
@@ -57,9 +48,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Eyebrow Waxing
@@ -73,9 +61,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Hybrid Lash Full set
@@ -88,9 +73,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Volume Lash Full set
@@ -104,9 +86,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h- h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Glam Full set
@@ -119,9 +98,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Hybrid Fill <span className="font-bold ">$65.00 </span>
@@ -133,9 +109,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Volume Fill <span className="font-bold ">$75.00 </span>
@@ -147,9 +120,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Glam Fill <span className="font-bold ">$90.00 </span>
@@ -161,9 +131,6 @@ const ServiceList = () => {
             </div>
           </div>
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 1" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Lash Bath <span className="font-bold ">$10.00 </span>
@@ -176,9 +143,6 @@ const ServiceList = () => {
           </div>
 
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 2" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Strip Lash Adhesive <span className="font-bold ">$5.00 </span>
@@ -191,9 +155,6 @@ const ServiceList = () => {
           </div>
 
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 3" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Henna Brow and Sculpt{" "}
@@ -206,9 +167,6 @@ const ServiceList = () => {
           </div>
 
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 4" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Ombre MicroShading (models){" "}
@@ -221,9 +179,6 @@ const ServiceList = () => {
           </div>
 
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 5" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Bubble Clear Lop Glass{" "}
@@ -237,9 +192,6 @@ const ServiceList = () => {
           </div>
 
           <div className="flex items-center flex-row mb-4 justify-between ">
-            <div className="bg-black inline-block rounded-full p-2">
-              <img className="max-w-full h-24" src={img1} alt="Icon 6" />
-            </div>
             <div className="text-black bg-brightC text-center mt-2 max-w-[300px] p-4 rounded-2xl relative overflow-hidden">
               <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl">
                 Cluster Lashes <span className="font-bold ">$30.00 </span>
