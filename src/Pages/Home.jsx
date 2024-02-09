@@ -12,6 +12,8 @@ import Reviews from "../Component/Reviews";
 import ContactForm from "../Component/ContactForm";
 import Faqs from "../Component/Faqs";
 import Socials from "../Component/Socials";
+import Book from "../Component/Book";
+import Footer from "../Component/Footer";
 
 const Home = () => {
   return (
@@ -28,6 +30,8 @@ const Home = () => {
       <Faqs />
       <ContactForm />
       <Socials />
+      <Book />
+      <Footer />
     </>
   );
 };
