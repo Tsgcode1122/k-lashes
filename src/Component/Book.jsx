@@ -1,17 +1,19 @@
 import React from "react";
 import dotted from "../images/curler.png";
 import dotted2 from "../images/curler2.png";
+import useLeftToRightSwipe from "../animation/useLeftToRightSwipe";
 const Book = () => {
+  useLeftToRightSwipe(".left-in");
   return (
     <>
-      <div className="p-4 text-center">
+      <div className="p-4 text-center sm:px-6 lg:px-8 xl:px-28">
         <div>
           <h2 className="text-xl font-bold mb-2 flex font-tsgDancing items-center justify-center">
             <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
             <span className="underline">Book Appointment</span>
             <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
           </h2>
-          <article className="pt-2 pb-2 font-tsg">
+          <article className="pt-2 pb-2 font-tsg xl:text-xl left-in">
             Welcome to our Appointment Booking! We're thrilled to assist you in
             scheduling a session with K-Nicole Lashes. Select your preferred
             date and time below, and let's make your beauty experience truly

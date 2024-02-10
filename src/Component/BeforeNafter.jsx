@@ -3,10 +3,12 @@ import before1 from "../images/picxx.jpg";
 import after1 from "../images/picx1.jpg";
 import dotted from "../images/curler.png";
 import dotted2 from "../images/curler2.png";
+import useLeftToRightSwipe from "../animation/useLeftToRightSwipe";
 const BeforeNafter = () => {
+  useLeftToRightSwipe(".left-in");
   return (
     <>
-      <div className="text-center justify-center bg-darkC">
+      <div className="text-center justify-center bg-darkC sm:px-6 lg:px-8 xl:px-28 ">
         <div className="p-4">
           <h2 className="text-xl font-bold mb-1 flex font-tsgDancing items-center justify-center">
             <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
@@ -14,7 +16,7 @@ const BeforeNafter = () => {
             <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
           </h2>
           <h4 className="font-bold font-tsg">BEFORE & AFTER</h4>
-          <article className="pt-2 pb-2 font-tsg">
+          <article className="pt-2 pb-2 font-tsg xl:text-xl left-in">
             Behold the captivating metamorphosis! Explore the remarkable
             journeys of our clients as we unveil their stunning transformations
             in our Before and After showcase. Witness the artistry of our lash
@@ -22,7 +24,7 @@ const BeforeNafter = () => {
             Real people, real results – experience the magic of K-NicoleLashes.
           </article>
         </div>
-        <div>
+        <div className="lg:flex">
           <div className="relative aspect-[12/8] p-4">
             <img
               src={before1}

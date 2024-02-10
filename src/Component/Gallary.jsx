@@ -9,11 +9,12 @@ import dotted from "../images/curler.png";
 import dotted2 from "../images/curler2.png";
 import kflyer2 from "../images/kflyer1.jpg";
 import "../Gallary.css";
-
+import useZoomInAnimation from "../animation/useZoomInAnimation";
 const Gallary = () => {
+  useZoomInAnimation(".Contact-form");
   return (
     <>
-      <div className="gallery-container">
+      <div className="gallery-container sm:px-6 lg:px-8 xl:px-28 Contact-form">
         <h2 className="text-xl font-bold mb-2 flex font-tsgDancing items-center justify-center">
           <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
           <span className="underline">Gallery</span>
@@ -21,7 +22,7 @@ const Gallary = () => {
         </h2>
         <h4 className="font-bold font-tsg pb-4">LASHES ON THE 'GRAM</h4>
 
-        <div className="image-grid">
+        <div className="image-grid ">
           <img src={img1} alt="Image 1" className="gallery-image" />
           <img src={img2} alt="Image 2" className="gallery-image" />
           <img src={img4} alt="Image 3" className="gallery-image" />
@@ -29,7 +30,6 @@ const Gallary = () => {
           <img src={img6} alt="Image 5" className="gallery-image" />
           <img src={img5} alt="Image 6" className="gallery-image" />
         </div>
-        <img src={kflyer2} className="pt-4" />
       </div>
     </>
   );

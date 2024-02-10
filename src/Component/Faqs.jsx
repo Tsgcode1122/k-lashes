@@ -1,17 +1,19 @@
 import React from "react";
 import dotted from "../images/curler.png";
 import dotted2 from "../images/curler2.png";
+import useLeftToRightSwipe from "../animation/useLeftToRightSwipe";
 const Faqs = () => {
+  useLeftToRightSwipe(".left-in");
   return (
     <>
-      <div className="p-4 mt-6">
+      <div className="p-4 mt-6 sm:px-6 lg:px-8 xl:px-28">
         <div className="text-center ">
           <h2 className="text-xl font-bold mb-4 flex font-tsgDancing items-center justify-center">
             <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
             <span className="underline">FAQs</span>
             <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
           </h2>
-          <p className="font-tsg">
+          <p className="font-tsg xl:text-xl left-in">
             Welcome to our FAQs section, where we address common queries about
             our lash services. Explore the following questions to find helpful
             information on lash extensions, aftercare, and more. If you have

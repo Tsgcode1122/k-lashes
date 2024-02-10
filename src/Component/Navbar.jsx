@@ -22,7 +22,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="md:hidden fixed w-full bg-darkC p-2.5 flex justify-between z-50 border-b-2 border-lightC ">
+      <div className="md:hidden fixed w-full bg-darkC p-2.5 flex justify-between z-50 border-b-2 border-lightC sm:px-6 ">
         <Link
           to="/"
           className="border border-lightC rounded-md transition-all duration-300 hover:text-black hover:bg-brightC hover:border-lightC"
@@ -165,58 +165,28 @@ const Navbar = () => {
         </motion.div>
       )}
 
-      <div className="hidden fixed w-full bg-darkC  md:flex navbar">
+      <div className="hidden fixed w-full bg-darkC  md:flex navbar z-50 lg:px-8 xl:px-28 ">
         <div className="flex-1">
-          <Link className="btn btn-ghost text-xl">
-            {" "}
+          <Link to="/" className="btn btn-ghost text-xl">
             <img className="max-w-full h-[50px] " src={logoimg} alt="Logo" />
           </Link>
         </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
+        <div className="flex-none ">
+          <ul className="menu menu-horizontal px-1 xl:text-[16px]">
             <li>
-              <Link>Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <details>
-                <summary>About</summary>
-                <ul className="p-2 bg-base-100 rounded-t-none">
-                  <li>
-                    <Link>About</Link>
-                  </li>
-                  <li>
-                    <Link>Faqs</Link>
-                  </li>
-                  <li>
-                    <Link>Testimonials</Link>
-                  </li>
-                  <li>
-                    <Link>Policies</Link>
-                  </li>
-                </ul>
-              </details>
+              <Link to="/About">About</Link>
             </li>
             <li>
-              <details>
-                <summary>Service</summary>
-                <ul className="p-2 bg-base-100 rounded-t-none">
-                  <li>
-                    <Link>Service List</Link>
-                  </li>
-                  <li>
-                    <Link>Gallery</Link>
-                  </li>
-                  <li>
-                    <Link>Lash Menu</Link>
-                  </li>
-                </ul>
-              </details>
+              <Link to="/Services">Services</Link>
             </li>
             <li>
-              <Link>Contact Us</Link>
+              <Link to="/Contact">Contact Us</Link>
             </li>
             <li>
-              <Link>Book Appointment</Link>
+              <Link to="/Appointment">Book Appointment</Link>
             </li>
           </ul>
         </div>

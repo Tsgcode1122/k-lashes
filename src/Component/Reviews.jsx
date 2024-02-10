@@ -3,6 +3,7 @@ import yourVideo from "../images/video.mp4";
 import your from "../images/your.mp4";
 import dotted from "../images/curler.png";
 import dotted2 from "../images/curler2.png";
+
 const Reviews = () => {
   const reviewsData = [
     {
@@ -50,8 +51,8 @@ const Reviews = () => {
 
   return (
     <div
-      style={{ textAlign: "center", maxWidth: "500px", margin: "auto" }}
-      className="bg-darkC"
+      style={{ textAlign: "center", margin: "auto" }}
+      className="p-8 bg-darkC sm:px-8 lg:px-16 xl:px-32 lg:max-w-[700px] "
     >
       <h2 className="text-xl font-bold mb-2 flex font-tsgDancing items-center justify-center">
         <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
@@ -65,9 +66,9 @@ const Reviews = () => {
           justifyContent: "space-between",
           alignItems: "center",
         }}
-        className="p-6"
+        className="p-6 "
       >
-        <button onClick={prevReview} className="text-xl font-bold">
+        <button onClick={prevReview} className="text-xl font-bold lg:text-2xl">
           &lt;
         </button>
         <div
@@ -78,10 +79,14 @@ const Reviews = () => {
             transition: "opacity 0.5s ease-in-out",
           }}
         >
-          <p className="p-2 font-tsg">{reviewsData[currentReview].text}</p>
-          <p className="p-2 font-tsg">- {reviewsData[currentReview].author}</p>
+          <p className="p-2 font-tsg lg:text-2xl">
+            {reviewsData[currentReview].text}
+          </p>
+          <p className="p-2 font-tsg lg:text-2xl">
+            - {reviewsData[currentReview].author}
+          </p>
         </div>
-        <button onClick={nextReview} className="text-xl font-bold">
+        <button onClick={nextReview} className="text-xl font-bold lg:text-2xl">
           &gt;
         </button>
       </div>
@@ -92,7 +97,6 @@ const Reviews = () => {
               width="100%"
               height="auto"
               controls
-              autoPlay
               muted
               loop
               className="w-[12.7rem] h-72"
@@ -108,7 +112,6 @@ const Reviews = () => {
               width="100%"
               height="auto"
               controls
-              autoPlay
               muted
               loop
               className="w-[12.7rem] h-72"

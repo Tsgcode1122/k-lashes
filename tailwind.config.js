@@ -14,6 +14,15 @@ export default {
         tsg: ["Chakra Petch", "sans-serif"],
         tsgDancing: ["BLOVERLY Regular"],
       },
+      screens: {
+        ix: "280px",
+
+        ixl: "321px",
+        // => @media (min-width: 1024px) { ... }
+
+        ixsm: "400px",
+        // => @media (min-width: 1280px) { ... }
+      },
     },
   },
   plugins: [require("daisyui")],

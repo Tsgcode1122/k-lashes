@@ -151,7 +151,6 @@ const Socials = () => {
                   width="100%"
                   height="auto"
                   controls
-                  autoPlay
                   muted
                   loop
                   className="w-[12.7rem] h-72"
@@ -167,7 +166,6 @@ const Socials = () => {
                   width="100%"
                   height="auto"
                   controls
-                  autoPlay
                   muted
                   loop
                   className="w-[12.7rem] h-72"

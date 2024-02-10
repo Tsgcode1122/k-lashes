@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "../Gallary.css";
 import dotted from "../images/curler.png";
 import dotted2 from "../images/curler2.png";
+import useZoomInAnimation from "../animation/useZoomInAnimation";
 const ContactForm = () => {
+  useZoomInAnimation(".Contact-form");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -56,7 +58,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 m-0  bg-darkC">
+    <div className="max-w-2xl mx-auto p-6 m-0  bg-darkC">
       <div className="text-center">
         <h2 className="text-xl font-bold mb-2 flex font-tsgDancing items-center justify-center">
           <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
@@ -64,7 +66,10 @@ const ContactForm = () => {
           <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
         </h2>
       </div>
-      <form onSubmit={handleSubmit} className="space-y-4 p-10 font-tsg">
+      <form
+        onSubmit={handleSubmit}
+        className="space-y-4 p-10 font-tsg Contact-form"
+      >
         <div>
           <label
             htmlFor="name"
