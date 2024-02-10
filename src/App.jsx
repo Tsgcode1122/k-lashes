@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./Component/Navbar";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -29,7 +28,6 @@ const router = createBrowserRouter([
         path: "Contact",
         element: <Contact />,
       },
-
       {
         path: "Appointment",
         element: <Appointment />,
@@ -39,10 +37,25 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
+  const [contentVisible, setContentVisible] = useState(false);
+
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setContentVisible(true);
+    }, 5000);
+
+    return () => clearTimeout(delay);
+  }, []);
+
   return (
     <>
-      <Preloader />
-      <RouterProvider router={router} />
+      {contentVisible ? (
+        <RouterProvider router={router}>
+          <Navbar />
+        </RouterProvider>
+      ) : (
+        <Preloader />
+      )}
     </>
   );
 };
