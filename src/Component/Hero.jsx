@@ -22,14 +22,14 @@ const Hero = () => {
         className=" m-0 pl-4 pr-4   pt-20   bg-cover bg-center justify-center text-center"
         style={bStyle}
       >
-        <div className=" justify-center text-center  pt-20 pb-5 justify-end text-black">
-          <h1 className=" text-4xl font-bold ">
+        <div className=" justify-center text-center   pt-20 pb-5 justify-end text-black">
+          <h1 className=" text-4xl font-bold font-tsgDancing ">
             Elevate Your Beauty with K.NicoleLashes
           </h1>
-          <h3 className="  text-lg  p-2 ">
+          <h3 className="  text-xl  p-2   ">
             Where Every Blink Speaks Confidence
           </h3>
-          <Link>
+          <Link to="/Appointment">
             <div className="b border-2  rounded-xl p-2 inline-block ">
               Book Now!!!
             </div>

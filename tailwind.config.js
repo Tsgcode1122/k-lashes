@@ -10,6 +10,10 @@ export default {
         brightC: "#FCE0E5",
         bgC: "#B58082",
       },
+      fontFamily: {
+        tsg: ["Chakra Petch", "sans-serif"],
+        tsgDancing: ["BLOVERLY Regular"],
+      },
     },
   },
   plugins: [require("daisyui")],
