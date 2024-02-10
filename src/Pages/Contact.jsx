@@ -2,6 +2,7 @@ import { React, useEffect } from "react";
 import Navbar from "../Component/Navbar";
 import ContactForm from "../Component/ContactForm";
 import Socials from "../Component/Socials";
+import Footer from "../Component/Footer";
 
 const Contact = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const Contact = () => {
         <ContactForm />
         <Socials />
       </div>
+      <Footer />
     </>
   );
 };

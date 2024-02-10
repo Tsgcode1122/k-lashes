@@ -1,12 +1,17 @@
 import React from "react";
-
+import dotted from "../images/curler.png";
+import dotted2 from "../images/curler2.png";
 const Faqs = () => {
   return (
     <>
-      <div className="p-4">
+      <div className="p-4 mt-6">
         <div className="text-center ">
-          <h3 className="font-bold text-xl">FAQs</h3>
-          <p>
+          <h2 className="text-xl font-bold mb-4 flex font-tsgDancing items-center justify-center">
+            <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
+            <span className="underline">FAQs</span>
+            <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
+          </h2>
+          <p className="font-tsg">
             Welcome to our FAQs section, where we address common queries about
             our lash services. Explore the following questions to find helpful
             information on lash extensions, aftercare, and more. If you have
@@ -15,8 +20,8 @@ const Faqs = () => {
           </p>
         </div>
         <div>
-          <div>
-            <div className="collapse collapse-plus bg-darkC">
+          <div className="font-tsg">
+            <div className="collapse collapse-plus">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title text-xl font-medium">
                 How long does a lash extension application take?
@@ -30,7 +35,7 @@ const Faqs = () => {
               </div>
             </div>
 
-            <div className="collapse collapse-plus bg-darkC">
+            <div className="collapse collapse-plus ">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title text-xl font-medium">
                 Are lash extensions safe for my natural lashes?
@@ -45,7 +50,7 @@ const Faqs = () => {
               </div>
             </div>
 
-            <div className="collapse collapse-plus bg-darkC">
+            <div className="collapse collapse-plus ">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title text-xl font-medium">
                 How long do lash extensions last?
@@ -60,7 +65,7 @@ const Faqs = () => {
               </div>
             </div>
 
-            <div className="collapse collapse-plus bg-darkC">
+            <div className="collapse collapse-plus ">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title text-xl font-medium">
                 Can I wear mascara with lash extensions?
@@ -75,7 +80,7 @@ const Faqs = () => {
               </div>
             </div>
 
-            <div className="collapse collapse-plus bg-darkC">
+            <div className="collapse collapse-plus ">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title text-xl font-medium">
                 How should I clean and care for my lash extensions?
@@ -90,7 +95,7 @@ const Faqs = () => {
               </div>
             </div>
 
-            <div className="collapse collapse-plus bg-darkC">
+            <div className="collapse collapse-plus ">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title text-xl font-medium">
                 Can I swim or shower with lash extensions?
@@ -105,7 +110,7 @@ const Faqs = () => {
               </div>
             </div>
 
-            <div className="collapse collapse-plus bg-darkC">
+            <div className="collapse collapse-plus ">
               <input type="radio" name="my-accordion-3" />
               <div className="collapse-title text-xl font-medium">
                 How often should I get lash extensions refilled?

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-
+import img1 from "../images/la.png";
 const MovingText = () => {
   const textVariants = {
     initial: { x: "40%" },
@@ -34,13 +34,23 @@ const MovingText = () => {
         variants={textVariants}
         initial="initial"
         animate={controls}
-        className="text-lg text-white flex"
+        className="text-[15px] text-white font-tsg flex"
       >
-        <span className="ml-4">Choose Excellence</span>
-        <span className="ml-4">Your Eyes, Our Masterpiece</span>
-        <span className="ml-4">Blink Beautifully</span>
-        <span className="ml-4">Glamour & Confidence</span>
-        <span className="ml-4">Simply Stunning, Always Lashed</span>
+        <span className="ml-8 items-center flex">
+          <img className="h-4" src={img1} /> Choose Excellence
+        </span>
+        <span className="ml-8 items-center flex">
+          <img className="h-4" src={img1} /> Your Eyes, Our Masterpiece
+        </span>
+        <span className="ml-8 items-center flex">
+          <img className="h-4" src={img1} /> Blink Beautifully
+        </span>
+        <span className="ml-8 items-center flex">
+          <img className="h-4" src={img1} /> Glamour & Confidence
+        </span>
+        <span className="ml-8 items-center flex">
+          <img className="h-4" src={img1} /> Simply Stunning, Always Lashed
+        </span>
       </motion.p>
     </div>
   );

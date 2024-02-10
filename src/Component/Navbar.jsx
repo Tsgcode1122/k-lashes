@@ -22,9 +22,13 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="md:hidden fixed w-full bg-darkC p-2.5 flex justify-between z-50 border-b-2 border-lightC">
-        <img className="max-w-full h-[50px] " src={logoimg} alt="Logo" />
-
+      <div className="md:hidden fixed w-full bg-darkC p-2.5 flex justify-between z-50 border-b-2 border-lightC ">
+        <Link
+          to="/"
+          className="border border-lightC rounded-md transition-all duration-300 hover:text-black hover:bg-brightC hover:border-lightC"
+        >
+          <img className="max-w-full h-[50px] " src={logoimg} alt="Logo" />
+        </Link>
         <label className="btn  bg-transparent btn-circle hover:bg-lightC swap swap-rotate">
           <input type="checkbox" />
 
@@ -54,7 +58,7 @@ const Navbar = () => {
 
       {isSidebarOpen && (
         <motion.div
-          className=" mt-16 pt-4 pl-4 pr-6 md:hidden bg-darkC fixed z-50 w-full"
+          className=" mt-16 pt-4 pl-4 pr-6 md:hidden bg-darkC fixed z-50 w-full font-tsg  font-medium"
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -63,14 +67,20 @@ const Navbar = () => {
           }}
         >
           <ul>
-            <li className="pb-2 ">
-              <Link to="/" className="flex justify-between">
-                {" "}
+            <li className="pb-2">
+              <Link
+                to="/"
+                className="flex justify-between p-2 border border-lightC rounded-md transition-all duration-300 hover:text-black hover:bg-brightC hover:border-lightC"
+              >
                 Home <IoIosArrowDropright />
               </Link>
             </li>
+
             <li className="pb-2">
-              <Link to="/About" className="flex justify-between">
+              <Link
+                to="/About"
+                className="flex justify-between p-2 border border-lightC rounded-md transition-all duration-300 hover:text-black hover:bg-brightC hover:border-lightC"
+              >
                 About <IoIosArrowDropright />
               </Link>
               {/* {isAboutOpen && (
@@ -104,7 +114,10 @@ const Navbar = () => {
               )} */}
             </li>
             <li className="pb-2">
-              <Link to="/Services" className="flex justify-between">
+              <Link
+                to="/Services"
+                className="flex justify-between p-2 border border-lightC rounded-md transition-all duration-300 hover:text-black hover:bg-brightC hover:border-lightC"
+              >
                 Services <IoIosArrowDropright />
               </Link>
               {/* {isServiceOpen && (
@@ -133,12 +146,18 @@ const Navbar = () => {
               )} */}
             </li>
             <li className="pb-2">
-              <Link to="/Contact" className="flex justify-between">
+              <Link
+                to="/Contact"
+                className="flex justify-between p-2 border border-lightC rounded-md transition-all duration-300 hover:text-black hover:bg-brightC hover:border-lightC"
+              >
                 Contact Us <IoIosArrowDropright />
               </Link>
             </li>
             <li className="pb-2">
-              <Link to="/Appointment" className="flex justify-between">
+              <Link
+                to="/Appointment"
+                className="flex justify-between p-2 border border-lightC rounded-md transition-all duration-300 hover:text-black hover:bg-brightC hover:border-lightC"
+              >
                 Book Appointment <IoIosArrowDropright />
               </Link>
             </li>

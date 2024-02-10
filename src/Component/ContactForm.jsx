@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../Gallary.css";
+import dotted from "../images/curler.png";
+import dotted2 from "../images/curler2.png";
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -54,11 +56,15 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-4">
+    <div className="max-w-md mx-auto p-6 m-0  bg-darkC">
       <div className="text-center">
-        <h3>Get In Touch with Us</h3>
+        <h2 className="text-xl font-bold mb-2 flex font-tsgDancing items-center justify-center">
+          <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
+          <span className="underline">Get in Touch with K.nicole</span>
+          <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
+        </h2>
       </div>
-      <form onSubmit={handleSubmit} className="space-y-4 p-10">
+      <form onSubmit={handleSubmit} className="space-y-4 p-10 font-tsg">
         <div>
           <label
             htmlFor="name"
@@ -130,10 +136,10 @@ const ContactForm = () => {
             className="mt-1 p-2 border rounded w-full custom-placeholder-opacity "
           ></textarea>
         </div>
-        <div>
+        <div className="items-center text-center justify-center">
           <button
             type="submit"
-            className="bg-brightC text-white py-2 px-4 rounded "
+            className="b border-2 bg-brightC font-tsg  rounded-xl p-2 inline-block hover:border-lightC "
           >
             Submit
           </button>

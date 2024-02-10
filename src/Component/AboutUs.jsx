@@ -1,14 +1,21 @@
 import React from "react";
 
 import owner from "../images/own.jpg";
+import dotted from "../images/curler.png";
+import dotted2 from "../images/curler2.png";
 
 const AboutUs = () => {
   return (
     <>
-      <div className="p-4 bg-darkC justify-center text-center ">
-        <h2>About Us</h2>
-        <h4>GET TO KNOW US</h4>
-        <article className="pt-2 pb-2">
+      <div className="p-4 bg-darkC justify-center  text-center ">
+        <h2 className="text-xl font-bold mb-2 flex font-tsgDancing items-center justify-center">
+          <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
+          <span className="underline">About Us</span>
+          <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
+        </h2>
+
+        <h4 className="font-bold font-tsg">GET TO KNOW K.NICOLE</h4>
+        <article className="pt-2 pb-2 font-tsg">
           Discover the artistry that defines K-NicoleLashes. I'm K-Nicole, a
           passionate lash artist dedicated to redefining your beauty with
           precision. From personalized styles that enhance your unique features
@@ -17,7 +24,7 @@ const AboutUs = () => {
           K-NicoleLashes.
         </article>
         <div className="border-4 border-solid border-brightC p-4 m-6 rounded-2xl inline-block">
-          <img className=" h-60 w-60  rounded-2xl" src={owner} alt="Owner" />
+          <img className=" h-72 w-60  rounded-2xl" src={owner} alt="Owner" />
         </div>
       </div>
     </>

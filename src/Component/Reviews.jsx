@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import yourVideo from "../images/video.mp4";
+import your from "../images/your.mp4";
+import dotted from "../images/curler.png";
+import dotted2 from "../images/curler2.png";
 const Reviews = () => {
   const reviewsData = [
     {
@@ -50,8 +53,12 @@ const Reviews = () => {
       style={{ textAlign: "center", maxWidth: "500px", margin: "auto" }}
       className="bg-darkC"
     >
-      <h3 className="text-xl font-bold p-4">Customer Reviews</h3>
-      <p>Our Client Trust Us</p>
+      <h2 className="text-xl font-bold mb-2 flex font-tsgDancing items-center justify-center">
+        <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
+        <span className="underline">Customer Reviews</span>
+        <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
+      </h2>
+      <h4 className="font-bold font-tsg">OUR CLIENTS TRUST US</h4>
       <div
         style={{
           display: "flex",
@@ -71,26 +78,46 @@ const Reviews = () => {
             transition: "opacity 0.5s ease-in-out",
           }}
         >
-          <p className="p-2">{reviewsData[currentReview].text}</p>
-          <p className="p-2">- {reviewsData[currentReview].author}</p>
+          <p className="p-2 font-tsg">{reviewsData[currentReview].text}</p>
+          <p className="p-2 font-tsg">- {reviewsData[currentReview].author}</p>
         </div>
         <button onClick={nextReview} className="text-xl font-bold">
           &gt;
         </button>
       </div>
-      <div>
-        <video
-          width="100%"
-          height="auto"
-          controls
-          autoPlay
-          muted
-          loop
-          className=" w-[104rem] h-[30rem]"
-        >
-          <source src={yourVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div className="flex flex-wrap justify-center relative pt-4">
+        <a>
+          <div>
+            <video
+              width="100%"
+              height="auto"
+              controls
+              autoPlay
+              muted
+              loop
+              className="w-[12.7rem] h-72"
+            >
+              <source src={yourVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </a>
+        <a>
+          <div>
+            <video
+              width="100%"
+              height="auto"
+              controls
+              autoPlay
+              muted
+              loop
+              className="w-[12.7rem] h-72"
+            >
+              <source src={your} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </a>
       </div>
     </div>
   );

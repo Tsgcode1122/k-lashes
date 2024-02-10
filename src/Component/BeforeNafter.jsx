@@ -1,14 +1,20 @@
 import React from "react";
 import before1 from "../images/picxx.jpg";
 import after1 from "../images/picx1.jpg";
+import dotted from "../images/curler.png";
+import dotted2 from "../images/curler2.png";
 const BeforeNafter = () => {
   return (
     <>
       <div className="text-center justify-center bg-darkC">
         <div className="p-4">
-          <h3>Transformations Unveiled</h3>
-          <h2>BEFORE & AFTER</h2>s
-          <article>
+          <h2 className="text-xl font-bold mb-1 flex font-tsgDancing items-center justify-center">
+            <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
+            <span className="underline">Transformations Unveiled</span>
+            <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
+          </h2>
+          <h4 className="font-bold font-tsg">BEFORE & AFTER</h4>
+          <article className="pt-2 pb-2 font-tsg">
             Behold the captivating metamorphosis! Explore the remarkable
             journeys of our clients as we unveil their stunning transformations
             in our Before and After showcase. Witness the artistry of our lash

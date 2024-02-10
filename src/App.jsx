@@ -42,7 +42,7 @@ const App = () => {
   return (
     <>
       <Preloader />
-      <RouterProvider router={router} />;
+      <RouterProvider router={router} />
     </>
   );
 };

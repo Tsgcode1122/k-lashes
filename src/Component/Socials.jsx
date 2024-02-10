@@ -13,13 +13,15 @@ const Socials = () => {
     <div className="bg-brightC p-4">
       <div>
         <div>
-          <h3 className="text-center font-bold mb-2">FOLLOW US ON INSTAGRAM</h3>
+          <h2 className="text-center font-bold mb-2 font-tsg">
+            FOLLOW US ON INSTAGRAM
+          </h2>
           <a
             href="https://www.instagram.com/k.nicolelashesllc?igsh=MWpubHh1dms1eDd6ZA=="
             className="flex items-center justify-center text-center"
           >
             <FaInstagram className=" text-4xl mr-2" />
-            <p className="text-black">K.nicolelashesllc</p>
+            <p className="text-black font-tsg">K.nicolelashesllc</p>
           </a>
 
           <div className="flex flex-wrap justify-center relative">
@@ -131,13 +133,15 @@ const Socials = () => {
           </div>
         </div>
         <div className="pt-8">
-          <h3 className="text-center font-bold mb-2">FOLLOW US ON TIKTOK</h3>
+          <h3 className="text-center font-bold mb-2 font-tsg">
+            FOLLOW US ON TIKTOK
+          </h3>
           <a
             href="https://www.tiktok.com/@_kierranicole?_t=8jkSkBVRIla&_r=1"
             className="flex items-center justify-center text-center"
           >
             <FaTiktok className=" text-4xl mr-2" />
-            <p className="text-black">_kierranicole</p>
+            <p className="text-black font-tsg">_kierranicole</p>
           </a>
 
           <div className="flex flex-wrap justify-center relative pt-4">
