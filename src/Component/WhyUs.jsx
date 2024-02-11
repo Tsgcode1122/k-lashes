@@ -64,7 +64,7 @@ const WhyUs = () => {
               <img className="max-w-full h-8" src={img3} alt="Icon 3" />
             </div>
             <p className="text-black text-center mt-2 xl:text-xl">
-              Distinctive Selections
+              Exclusive Selections
             </p>
           </div>
         </div>
