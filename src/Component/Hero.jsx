@@ -2,6 +2,7 @@ import React from "react";
 import backgroundImage from "../images/Hero.jpg";
 import kk from "../images/kk.jpg";
 import own from "../images/own.jpg";
+
 import pink from "../images/pink.jpg";
 import gif from "../images/blinking.gif";
 import pastel from "../images/pastel.jpg";
@@ -10,6 +11,7 @@ import { Link } from "react-router-dom";
 import MovingText from "./MovingText";
 import "../Design.css";
 import "../Gallary.css";
+import owner from "../images/knicole.jpg";
 const Hero = () => {
   const divStyle = {
     backgroundImage: `url(${pink})`,
@@ -55,7 +57,7 @@ const Hero = () => {
         </div>
         <div className="carousel carousel-center max-w-md p-4 space-x-4  bg-brightC rounded-box bg-cover bg-center   xl:items-center  xl:p-8 xl:w-1/2">
           <div className="carousel-item">
-            <img src={own} className="rounded-box  max-w-full  w-72 h-80" />
+            <img src={owner} className="rounded-box  max-w-full  w-72 h-80" />
           </div>
           <div className="carousel-item">
             <img

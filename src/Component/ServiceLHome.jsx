@@ -20,7 +20,7 @@ const ServiceLHome = () => {
         </article>
         <div className=" text-center items-center justify-center flex  flex-col md:flex md:flex-wrap md:justify-center md:flex-row md:gap-4">
           <div className="text-black bg-brightC text-center mt-2  mb-2  p-4 rounded-2xl font-tsg relative overflow-hidden max-w-[400px] md:min-w-[200px] md:min-h-[180px] lg:max-w-[350px] lg:min-h-[220px]  ">
-            <p className="bg-lightC text-l font-medium inline-block p-1 rounded-2xl font-tsg font-tsg">
+            <p className="bg-lightC text-l font-medium inline-block p-1 rounded-2xl font-tsg ">
               Classic & Volume Certification{" "}
               <span className="font-bold ">$900.00 </span>
             </p>
@@ -67,11 +67,12 @@ const ServiceLHome = () => {
           <div className="text-black bg-brightC text-center mt-2  mb-2  p-4 rounded-2xl font-tsg relative overflow-hidden max-w-[400px] md:min-w-[200px] md:min-h-[180px] lg:max-w-[350px] lg:min-h-[220px] ">
             <p className="bg-lightC text-l font-medium inline-block p-2 rounded-2xl font-tsg">
               Hybrid Lash Full set
-              <span className="font-bold "> $12.00 </span>
+              <span className="font-bold "> $125.00 </span>
             </p>
             <article className="pt-2 pb-2 font-tsg xl:text-xl">
-              Effortlessly shed your lash extensions with our gentle removal
-              service, preserving your natural beauty.
+              Elevate your natural beauty with our Hybrid Lash Full Set,
+              seamlessly blending classic and volume lashes for a stunning,
+              personalized look.
             </article>
           </div>
           <div className="text-black bg-brightC text-center mt-2  mb-2  p-4 rounded-2xl font-tsg relative overflow-hidden max-w-[400px] md:min-w-[200px] md:min-h-[180px] lg:max-w-[350px] lg:min-h-[220px] ">
@@ -80,8 +81,8 @@ const ServiceLHome = () => {
               <span className="font-bold "> $150.00 </span>
             </p>
             <article className="pt-2 pb-2 font-tsg xl:text-xl">
-              Experience the perfect fusion of classic and volume lashes with
-              our Hybrid Lash Full Set, crafted to enhance your natural beauty.
+              Transform your look with our Volume Lash Full Set, expertly
+              crafted for a captivating blend of classic and voluminous beauty.
             </article>
           </div>
         </div>

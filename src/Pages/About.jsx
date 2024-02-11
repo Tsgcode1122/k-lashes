@@ -5,6 +5,7 @@ import Reviews from "../Component/Reviews";
 import Faqs from "../Component/Faqs";
 import Footer from "../Component/Footer";
 import BeforeNafter from "../Component/BeforeNafter";
+import Policy from "../Component/Policy";
 const About = () => {
   useEffect(() => {
     // Scroll to the top on component mount
@@ -15,6 +16,7 @@ const About = () => {
       <Navbar />
       <div className="pt-24 bg-darkC">
         <AboutUs />
+        <Policy />
         <BeforeNafter />
         <Reviews />
         <Faqs />

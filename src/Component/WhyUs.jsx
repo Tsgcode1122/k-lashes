@@ -15,12 +15,10 @@ const WhyUs = () => {
     <>
       <div className="bg-brightC text-center justify-center p-4 sm:px-5  lg:px-8 xl:px-32 ">
         <h2 className="text-xl font-bold mb-4 flex font-tsgDancing items-center justify-center lg:text-2xl">
-          <img src={dotted} className="h-10 mr-2" alt="Dotted Line" />
           <span className="underline">Why Choose K.nicole?</span>
-          <img src={dotted2} className="h-10 ml-2" alt="Dotted Line" />
         </h2>
         <div className="flex flex-wrap justify-around font-tsg Contact-form">
-          <div className="flex items-center flex-col mb-4 min-w-[200px] border-2 border-solid border-brightC rounded-md p-4 shadow-md sm:min-w-[195px]  lg:min-w-[350px] xl:min-w-[300px]">
+          <div className="flex items-center flex-col mb-4 max-w-[170px] border-2 border-solid border-brightC rounded-md p-4 shadow-md sm:min-w-[195px]  lg:min-w-[350px] xl:min-w-[300px] min-[320px]:max-w-[190px]">
             <div className="bg-black inline-block rounded-full p-2 ">
               <img className="max-w-full h-8" src={img1} alt="Icon 1" />
             </div>
@@ -29,7 +27,7 @@ const WhyUs = () => {
             </p>
           </div>
 
-          <div className="flex items-center flex-col mb-4 min-w-[200px] border-2 border-solid border-brightC rounded-md p-4 shadow-md sm:min-w-[195px] lg:min-w-[350px] xl:min-w-[300px]">
+          <div className="flex items-center flex-col mb-4 max-w-[170px] border-2 border-solid border-brightC rounded-md p-2 shadow-md sm:min-w-[195px] lg:min-w-[350px] xl:min-w-[300px] min-[320px]:max-w-[190px]">
             <div className="bg-black inline-block rounded-full p-2">
               <img className="max-w-full h-8" src={img2} alt="Icon 2" />
             </div>
@@ -37,7 +35,7 @@ const WhyUs = () => {
               Lasting Impressions
             </p>
           </div>
-          <div className="flex items-center flex-col mb-4 min-w-[200px] border-2 border-solid border-brightC rounded-md p-4 shadow-md sm:min-w-[195px] lg:min-w-[350px] xl:min-w-[300px]">
+          <div className="flex items-center flex-col mb-4 min-w-[170px] border-2 border-solid border-brightC rounded-md p-2 shadow-md sm:min-w-[195px] lg:min-w-[350px] xl:min-w-[300px] min-[320px]:max-w-[190px]">
             <div className="bg-black inline-block rounded-full p-2">
               <img className="max-w-full h-8" src={img3} alt="Icon 3" />
             </div>
@@ -45,7 +43,7 @@ const WhyUs = () => {
               Confidence Boost
             </p>
           </div>
-          <div className="flex items-center flex-col mb-4 min-w-[200px] border-2 border-solid border-brightC rounded-md p-4 shadow-md sm:min-w-[195px] lg:min-w-[350px] xl:min-w-[300px]">
+          <div className="flex items-center flex-col mb-4 min-w-[170px] border-2 border-solid border-brightC rounded-md p-2 shadow-md sm:min-w-[195px] lg:min-w-[350px] xl:min-w-[300px] min-[320px]:max-w-[190px]">
             <div className="bg-black inline-block rounded-full p-2">
               <img className="max-w-full h-8" src={img1} alt="Icon 1" />
             </div>
@@ -53,7 +51,7 @@ const WhyUs = () => {
               Tailored Styles
             </p>
           </div>
-          <div className="flex items-center flex-col mb-4 min-w-[200px] border-2 border-solid border-brightC rounded-md p-4 shadow-md sm:min-w-[195px]  lg:min-w-[350px] xl:min-w-[300px]">
+          <div className="flex items-center flex-col mb-4 min-w-[170px] border-2 border-solid border-brightC rounded-md p-2 shadow-md sm:min-w-[195px]  lg:min-w-[350px] xl:min-w-[300px] min-[320px]:max-w-[190px]">
             <div className="bg-black inline-block rounded-full p-2">
               <img className="max-w-full h-8" src={img2} alt="Icon 2" />
             </div>
@@ -61,7 +59,7 @@ const WhyUs = () => {
               Precision Artistry
             </p>
           </div>
-          <div className="flex items-center flex-col mb-4 min-w-[200px] border-2 border-solid border-brightC rounded-md p-4 shadow-md sm:min-w-[195px] lg:min-w-[350px] xl:min-w-[300px] ">
+          <div className="flex items-center flex-col mb-4 max-w-[170px] border-2 border-solid border-brightC rounded-md p-2 shadow-md sm:min-w-[195px] lg:min-w-[350px] xl:min-w-[300px] min-[320px]:max-w-[190px]">
             <div className="bg-black inline-block rounded-full p-2">
               <img className="max-w-full h-8" src={img3} alt="Icon 3" />
             </div>

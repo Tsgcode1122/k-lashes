@@ -14,6 +14,7 @@ import Faqs from "../Component/Faqs";
 import Socials from "../Component/Socials";
 import Book from "../Component/Book";
 import Footer from "../Component/Footer";
+import Policy from "../Component/Policy";
 
 const Home = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <AboutUs />
+      <Policy />
       <WhyUs />
       <BeforeNafter />
       <ServiceLHome />

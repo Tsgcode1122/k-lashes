@@ -17,11 +17,11 @@ const BeforeNafter = () => {
           </h2>
           <h4 className="font-bold font-tsg">BEFORE & AFTER</h4>
           <article className="pt-2 pb-2 font-tsg xl:text-xl left-in">
-            Behold the captivating metamorphosis! Explore the remarkable
-            journeys of our clients as we unveil their stunning transformations
-            in our Before and After showcase. Witness the artistry of our lash
-            experts, weaving tales of beauty, confidence, and timeless elegance.
-            Real people, real results – experience the magic of K-NicoleLashes.
+            Explore the remarkable journeys of our clients as we unveil their
+            stunning transformations in our Before and After showcase. Witness
+            the artistry of our lash experts, weaving tales of beauty,
+            confidence, and timeless elegance. Real people, real results –
+            experience the magic of K-NicoleLashes.
           </article>
         </div>
         <div className="lg:flex">

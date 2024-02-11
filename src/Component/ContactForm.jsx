@@ -144,7 +144,7 @@ const ContactForm = () => {
         <div className="items-center text-center justify-center">
           <button
             type="submit"
-            className="b border-2 bg-brightC font-tsg  rounded-xl p-2 inline-block hover:border-lightC "
+            className=" border-2 bg-black text-white  font-medium font-tsg rounded-xl p-2 inline-block hover:border-brightC  hover:bg-transparent hover:text-black lg:text-xl "
           >
             Submit
           </button>

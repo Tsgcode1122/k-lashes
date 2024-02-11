@@ -8,18 +8,29 @@ const Reviews = () => {
   const reviewsData = [
     {
       id: 1,
-      text: "Absolutely love my lashes! The transformation is incredible. Thank you!",
-      author: "Lindsay M.",
+      text: "Great lash tech! Takes her time to get the job done. She uses quality products so that your lashes last longer! Would recommend.",
+      author: "Ni'Asia Daniels",
     },
+
     {
       id: 2,
-      text: "Exceptional service! My lashes look fantastic, and the experience was delightful.",
-      author: "Alex T.",
+      text: "She was very professional from the time I inboxed her inquiring about the class to actually being in person with my class. She helped me and talked me through it all, even when I was getting frustrated. DEFINITELY would recommend!!!",
+      author: "Dee Childs",
     },
     {
       id: 3,
-      text: "I've tried various lash studios, and this one stands out. Impeccable results every time.",
-      author: "Sophie L.",
+      text: "Kierra is the bomb. In the aspect of lash tech and more importantly as an instructor. She is beyond professional and very dedicated to giving you the best experience. Don't hesitate in booking her! You won't regret it",
+      author: "Abby Cuenca",
+    },
+    {
+      id: 4,
+      text: "Dope artist. She delivers funny's and lashes 🖤✊🏾black power SGF",
+      author: "Area Six",
+    },
+    {
+      id: 5,
+      text: "I ordered from Kierra because she was a great person and I wanted to support her. I didn't know the first thing about putting on my own lashes. She did a great job explaining the process to me. Shipping was fast and she checked to ensure that I received my order. Her lash line is AMAZING!! If you don't know which set to purchase, she can definitely provide assistance. She's really nice and professional. I plan to order more lashes in the future.",
+      author: "JaLeesa D. Ramsey.",
     },
   ];
 
@@ -45,7 +56,7 @@ const Reviews = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextReview, 10000);
+    const interval = setInterval(nextReview, 20000);
     return () => clearInterval(interval);
   }, []);
 
@@ -66,7 +77,7 @@ const Reviews = () => {
           justifyContent: "space-between",
           alignItems: "center",
         }}
-        className="p-6 "
+        className="p-2 min-h-[350px]"
       >
         <button onClick={prevReview} className="text-xl font-bold lg:text-2xl">
           &lt;
