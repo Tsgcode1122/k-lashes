@@ -31,7 +31,7 @@ const Socials = () => {
             >
               <img
                 src={img1}
-                className="max-w-full  h-[25rem] min-[320px]:w-[19rem] lg:w-[16rem] lg:h-72  "
+                className="max-w-full min-[370px]:h-[20rem] min-[370px]:min-w-[16rem] lg:w-[16rem] lg:h-72  "
                 alt="Instagram Reel 1"
               />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -57,7 +57,7 @@ const Socials = () => {
             >
               <img
                 src={img2}
-                className="max-w-full h-[25rem] min-[320px]:w-[19rem] lg:w-[16rem] lg:h-72 "
+                className="max-w-full  min-[370px]:h-[20rem] min-[370px]:min-w-[16rem] lg:w-[16rem] lg:h-72 "
                 alt="Instagram Reel 2"
               />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -83,7 +83,7 @@ const Socials = () => {
             >
               <img
                 src={img3}
-                className="max-w-full h-[25rem] min-[320px]:w-[19rem] lg:w-[16rem] lg:h-72  "
+                className="max-w-full min-[370px]:h-[20rem] min-[370px]:min-w-[16rem] lg:w-[16rem] lg:h-72  "
                 alt="Instagram Reel 3"
               />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -110,7 +110,7 @@ const Socials = () => {
             >
               <img
                 src={img4}
-                className="max-w-full h-[25rem] min-[320px]:w-[19rem] lg:w-[16rem] lg:h-72 "
+                className="max-w-full min-[370px]:h-[20rem] min-[370px]:min-w-[16rem] lg:w-[16rem] lg:h-72 "
                 alt="Instagram Reel 4"
               />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
