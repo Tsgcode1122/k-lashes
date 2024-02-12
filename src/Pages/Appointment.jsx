@@ -2,6 +2,7 @@ import { React, useEffect } from "react";
 import Navbar from "../Component/Navbar";
 import Book from "../Component/Book";
 import Footer from "../Component/Footer";
+import ScrollToTopButton from "../Component/ScrollToTopButton";
 
 const Appointment = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const Appointment = () => {
       <div className="pt-24 bg-darkC">
         <Book />
         <Footer />
+        <ScrollToTopButton />
       </div>
     </>
   );

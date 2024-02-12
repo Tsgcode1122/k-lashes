@@ -15,6 +15,7 @@ import Socials from "../Component/Socials";
 import Book from "../Component/Book";
 import Footer from "../Component/Footer";
 import Policy from "../Component/Policy";
+import ScrollToTopButton from "../Component/ScrollToTopButton";
 
 const Home = () => {
   useEffect(() => {
@@ -38,6 +39,7 @@ const Home = () => {
       <Socials />
       <Book />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

@@ -6,6 +6,7 @@ import Faqs from "../Component/Faqs";
 import Footer from "../Component/Footer";
 import BeforeNafter from "../Component/BeforeNafter";
 import Policy from "../Component/Policy";
+import ScrollToTopButton from "../Component/ScrollToTopButton";
 const About = () => {
   useEffect(() => {
     // Scroll to the top on component mount
@@ -21,6 +22,7 @@ const About = () => {
         <Reviews />
         <Faqs />
         <Footer />
+        <ScrollToTopButton />
       </div>
     </>
   );

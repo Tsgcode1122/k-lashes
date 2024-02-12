@@ -4,6 +4,7 @@ import ServiceList from "../Component/ServiceList";
 import Gallary from "../Component/Gallary";
 import PFlyer from "../Component/PFlyer";
 import Footer from "../Component/Footer";
+import ScrollToTopButton from "../Component/ScrollToTopButton";
 
 const Services = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const Services = () => {
       </div>
       <PFlyer />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

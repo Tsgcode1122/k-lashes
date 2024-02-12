@@ -3,6 +3,7 @@ import Navbar from "../Component/Navbar";
 import ContactForm from "../Component/ContactForm";
 import Socials from "../Component/Socials";
 import Footer from "../Component/Footer";
+import ScrollToTopButton from "../Component/ScrollToTopButton";
 
 const Contact = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const Contact = () => {
         <Socials />
       </div>
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };
