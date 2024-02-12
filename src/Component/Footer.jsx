@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="lg:flex lg:justify-between lg:px-16">
           <div className="mb-8 lg:w-1/2">
             <h3 className="font-bold">Work Hours</h3>
-            <p> Monday to Friday 9 AM - 6 PM</p>
+            <p> Monday to Friday: 9 AM - 6 PM</p>
           </div>
           {/* Social Icons */}
           <div className="pb-5 lg:w-1/2">
