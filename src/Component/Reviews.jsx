@@ -39,26 +39,17 @@ const Reviews = () => {
 
   const nextReview = () => {
     setTransitioning(true);
-    setTimeout(() => {
-      setCurrentReview((prev) => (prev + 1) % reviewsData.length);
-      setTransitioning(false);
-    }, 500);
+    setCurrentReview((prev) => (prev + 1) % reviewsData.length);
+    setTransitioning(false);
   };
 
   const prevReview = () => {
     setTransitioning(true);
-    setTimeout(() => {
-      setCurrentReview(
-        (prev) => (prev - 1 + reviewsData.length) % reviewsData.length,
-      );
-      setTransitioning(false);
-    }, 500);
+    setCurrentReview(
+      (prev) => (prev - 1 + reviewsData.length) % reviewsData.length,
+    );
+    setTransitioning(false);
   };
-
-  useEffect(() => {
-    const interval = setInterval(nextReview, 20000);
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div
