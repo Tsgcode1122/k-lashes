@@ -43,7 +43,7 @@ const App = () => {
   useEffect(() => {
     const delay = setTimeout(() => {
       setContentVisible(true);
-    }, 5000);
+    }, 3000);
 
     return () => clearTimeout(delay);
   }, []);
